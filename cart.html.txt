@@ -1,0 +1,16 @@
+<!-- هيكل مشابه مع جدول للسلة -->
+<table id="cart-items">
+    <thead>
+        <tr>
+            <th>الصورة</th>
+            <th>المنتج</th>
+            <th>السعر</th>
+            <th>الكمية</th>
+            <th>الإجمالي</th>
+            <th>حذف</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- العناصر تُضاف هنا عبر JavaScript -->
+    </tbody>
+</table>

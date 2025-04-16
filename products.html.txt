@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجات EGRO.MA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components/cards.css">
+</head>
+<body>
+    <header>
+        <!-- نفس هيدر الصفحة الرئيسية -->
+    </header>
+
+    <main class="products-page">
+        <section class="products-filter">
+            <input type="text" id="search" placeholder="ابحث عن منتج...">
+            <select id="category-filter">
+                <option value="all">جميع الفئات</option>
+                <option value="electronics">إلكترونيات</option>
+                <option value="clothing">ملابس</option>
+            </select>
+        </section>
+
+        <div class="products-grid" id="products-container">
+            <!-- المنتجات تُضاف هنا عبر JavaScript -->
+        </div>
+    </main>
+
+    <script src="js/products.js"></script>
+</body>
+</html>

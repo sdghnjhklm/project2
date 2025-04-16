@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGRO.MA - متجر إلكتروني</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">EGRO.MA</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="cart.html">🛒 السلة</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>مرحبًا بك في متجر EGRO.MA</h1>
+            <p>اكتشف أفضل المنتجات بأسعار تنافسية</p>
+            <a href="products.html" class="btn">تصفح المنتجات</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 EGRO.MA. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
